@@ -1,7 +1,5 @@
-//If you use PixelRation the sprite will be smaller according to the resolution of the mobile device
-
-PixelW = window.innerWidth;// * window.devicePixelRatio
-PixelH = window.innerHeight;// * window.devicePixelRatio
+PixelW = window.innerWidth;
+PixelH = window.innerHeight;
 var game = new Phaser.Game(PixelW, PixelH, Phaser.AUTO, 'game', { preload: preload, create: create, update: update });
 
 var sprite;
